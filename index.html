@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Derya Özdemir — Mathematician and Research Assistant at Izmir Institute of Technology. Research on Lyapunov stability and control theory, publications, teaching and contact.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Derya Özdemir — Mathematics, Control Theory">
+<meta property="og:description" content="Research Assistant at Izmir Institute of Technology. Lyapunov stability, nonlinear systems, control theory.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E∑%3C/text%3E%3C/svg%3E">
+<title>Derya Özdemir — Mathematics</title>
+<style>
+:root{box-sizing:border-box;--bg:#f8f7f5;--surface:#fff;--text:#1b1a1d;--muted:#625e66;--line:#e6e2e0;--accent:#8c1c3a;--accent-soft:#f6e3e8;color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121014;--surface:#1b181d;--text:#ece9ee;--muted:#a49fa8;--line:#2e2a31;--accent:#f08aa5;--accent-soft:#34202a;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#121014;--surface:#1b181d;--text:#ece9ee;--muted:#a49fa8;--line:#2e2a31;--accent:#f08aa5;--accent-soft:#34202a;color-scheme:dark}
+html{scroll-behavior:smooth;scroll-padding-top:64px}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:inherit}
+header{position:sticky;top:0;z-index:10;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav{max-width:960px;margin:0 auto;padding:0 20px;height:56px;display:flex;align-items:center;gap:18px;position:relative}
+nav .brand{font-weight:700;margin-right:auto;text-decoration:none}
+nav a.l{text-decoration:none;color:var(--muted);font-size:15px}
+nav a.l:hover{color:var(--accent)}
+nav button{background:none;border:1px solid var(--line);color:var(--text);border-radius:8px;padding:4px 10px;cursor:pointer;font:inherit;font-size:14px}
+main{max-width:960px;margin:0 auto;padding:0 20px}
+section{padding:64px 0 8px}
+h1{font-size:clamp(32px,6vw,50px);line-height:1.1;margin:0 0 12px;letter-spacing:-.02em}
+h2{font-size:14px;text-transform:uppercase;letter-spacing:.12em;color:var(--accent);margin:0 0 20px}
+.hero{padding-top:80px;display:flex;gap:32px;align-items:center;flex-wrap:wrap-reverse}
+.hero .txt{flex:1 1 380px}
+.hero img{width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:center 30%;border:3px solid var(--surface);box-shadow:0 0 0 1px var(--line)}
+.hero p.sub{font-size:19px;color:var(--muted);max-width:620px;margin:0 0 28px}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:10px 18px;border-radius:10px;text-decoration:none;font-weight:600;border:1px solid var(--accent)}
+.btn.p{background:var(--accent);color:var(--bg)}
+.btn.s{color:var(--accent)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px}
+.row{display:grid;grid-template-columns:120px 1fr;gap:4px 16px;padding:12px 0;border-bottom:1px solid var(--line)}
+.row:first-child{padding-top:0}.row:last-child{border-bottom:0;padding-bottom:0}
+.row .y{color:var(--muted);font-size:14px;padding-top:2px;font-variant-numeric:tabular-nums}
+.row b{display:block}
+.row .d{color:var(--muted);font-size:15px}
+.sub-h{margin:28px 0 14px;font-size:16px;color:var(--muted);font-weight:600}
+.pub{padding:12px 0;border-bottom:1px solid var(--line)}.pub:first-child{padding-top:0}.pub:last-child{border-bottom:0;padding-bottom:0}
+.pub .t{font-weight:600}.pub .m{color:var(--muted);font-size:15px}
+.kind{display:inline-block;font-size:12px;padding:1px 9px;border-radius:99px;background:var(--accent-soft);color:var(--accent);font-weight:600;margin-right:6px}
+.tags{display:flex;gap:6px;flex-wrap:wrap}
+.tag{font-size:13px;padding:3px 11px;border-radius:99px;background:var(--accent-soft);color:var(--accent);font-weight:600}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+ul.pl{margin:0;padding-left:18px}ul.pl li{margin:4px 0}
+.contact ul{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+footer{max-width:960px;margin:72px auto 0;padding:24px 20px 40px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+.links{display:flex;gap:18px;align-items:center}#menu{display:none}
+@media (max-width:720px){#menu{display:inline-block}.links{display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;align-items:flex-start;gap:0;background:var(--bg);border-bottom:1px solid var(--line);padding:8px 20px}.links.open{display:flex}.links a.l{padding:10px 0;width:100%;font-size:16px}.row{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header><nav>
+  <a class="brand" href="#top">Derya Özdemir</a>
+  <div class="links" id="links">
+    <a class="l" href="#about" data-i="n_about"></a>
+    <a class="l" href="#research" data-i="n_res"></a>
+    <a class="l" href="#teaching" data-i="n_teach"></a>
+    <a class="l" href="#cv" data-i="n_cv"></a>
+    <a class="l" href="#contact" data-i="n_contact"></a>
+  </div>
+  <button id="lang" type="button" aria-label="Language">TR</button>
+  <button id="theme" type="button" aria-label="Theme">◐</button>
+  <button id="menu" type="button" aria-label="Menu" aria-expanded="false">☰</button>
+</nav></header>
+
+<main id="top">
+  <section class="hero">
+    <div class="txt">
+      <h1>Derya Özdemir</h1>
+      <p class="sub" data-i="hero_sub"></p>
+      <div class="btns">
+        <a class="btn p" href="#research" data-i="btn_res"></a>
+        <a class="btn s" href="Derya_Ozdemir_CV.pdf" target="_blank" rel="noopener" data-i="btn_cv"></a>
+        <a class="btn s" href="mailto:deryacokgur@iyte.edu.tr" data-i="btn_mail"></a>
+      </div>
+    </div>
+    <img src="photo.jpg" alt="Derya Özdemir" width="150" height="150">
+  </section>
+
+  <section id="about">
+    <h2 data-i="about_h"></h2>
+    <div class="card">
+      <p style="margin:0 0 12px" data-i="about_p"></p>
+      <p style="margin:0"><b data-i="int_l"></b> <span data-i="int"></span></p>
+      <p style="margin:4px 0 0"><b data-i="lang_l"></b> <span data-i="lang_v"></span></p>
+    </div>
+  </section>
+
+  <section id="research">
+    <h2 data-i="res_h"></h2>
+    <div class="card">
+      <div class="pub"><span class="kind" data-i="k_j"></span><span class="m">2024</span>
+        <div class="t">Uniform asymptotic and input to state stability by indefinite Lyapunov functions</div>
+        <div class="m">G. Şahan, D. Özdemir · <i>European Journal of Control</i>, p. 100945</div></div>
+      <div class="pub"><span class="kind" data-i="k_c"></span><span class="m">2025</span>
+        <div class="t">Stability analysis of nonlinear time-varying cascade systems by indefinite derivative</div>
+        <div class="m">D. Özdemir, G. Şahan · 25th International Conference on Control, Automation and Systems (ICCAS), IEEE, pp. 1009–1014</div></div>
+      <div class="pub"><span class="kind" data-i="k_c"></span><span class="m">2022</span>
+        <div class="t">Uniform asymptotic stability by indefinite Lyapunov functions</div>
+        <div class="m">G. Şahan, D. Özdemir · 13th Asian Control Conference (ASCC), IEEE, pp. 1771–1774</div></div>
+      <div class="pub"><span class="kind" data-i="k_b"></span><span class="m">2023</span>
+        <div class="t" data-i="book_t"></div>
+        <div class="m">D. Özdemir et al. · Bir-Yay, Ankara</div></div>
+    </div>
+    <p class="sub-h" data-i="proj_h"></p>
+    <div class="card"><div class="row"><span class="y">2020 – 2022</span><div><b data-i="tub_t"></b><span class="d" data-i="tub_d"></span></div></div></div>
+  </section>
+
+  <section id="teaching">
+    <h2 data-i="teach_h"></h2>
+    <div class="card">
+      <p style="margin:0 0 14px;color:var(--muted)" data-i="teach_p"></p>
+      <div class="cols">
+        <div><p style="margin:0 0 6px;font-weight:600" data-i="t_calc"></p><ul class="pl">
+          <li>MATH 121 Basic Mathematics</li><li>MATH 141 / 142 Basic Calculus I–II</li><li>MATH 145 / 146 Calculus for Engineering and Science I–II</li><li>MATH 255 Differential Equations</li><li>MATH 262 Linear Algebra II</li></ul></div>
+        <div><p style="margin:0 0 6px;font-weight:600" data-i="t_adv"></p><ul class="pl">
+          <li>MATH 368 An Introduction to Mathematical Control Theory</li><li>MATH 381 / 382 Numerical Analysis I–II</li><li>MATH 334 An Introduction to Wavelets and Applications</li><li>MSE 222 Applied Mathematics for Engineering</li><li>CSE 501 Numerical Methods and Scientific Programming I</li></ul></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="cv">
+    <h2 data-i="edu_h"></h2>
+    <div class="card">
+      <div class="row"><span class="y" data-i="y_phd"></span><div><b data-i="phd"></b><span class="d">Izmir Institute of Technology</span></div></div>
+      <div class="row"><span class="y">2019 – 2022</span><div><b data-i="msc"></b><span class="d">Izmir Institute of Technology · <span data-i="thesis"></span> <i>Qualitative Properties of Solutions of Some Keller–Segel Type Systems</i></span></div></div>
+      <div class="row"><span class="y">2009 – 2014</span><div><b data-i="bsc"></b><span class="d">Dokuz Eylül University, İzmir</span></div></div>
+    </div>
+    <p class="sub-h" data-i="emp_h"></p>
+    <div class="card">
+      <div class="row"><span class="y" data-i="y_ra"></span><div><b data-i="ra"></b><span class="d">Izmir Institute of Technology</span></div></div>
+      <div class="row"><span class="y">2017 – 2018</span><div><b data-i="mt"></b><span class="d">Buca İnci Özer Tırnaklı Science High School, İzmir</span></div></div>
+      <div class="row"><span class="y">2016 – 2017</span><div><b data-i="mt"></b><span class="d">Doğa College, İzmir</span></div></div>
+      <div class="row"><span class="y">2014 – 2016</span><div><b data-i="mt"></b><span class="d">Uğur Tutorial, İzmir</span></div></div>
+    </div>
+    <p class="sub-h" data-i="act_h"></p>
+    <div class="card">
+      <div class="row"><span class="y">2025</span><div><b>25th International Conference on Control, Automation and Systems (ICCAS 2025)</b></div></div>
+      <div class="row"><span class="y">2024</span><div><span class="d" style="color:var(--text)">EECI International Graduate School on Control — <i>The Scenario Approach: Data Science for Systems, Control, and Machine Learning</i> (M. C. Campi, S. Garatti) · EECI International Graduate School on Control — <i>Introduction to Nonlinear Systems &amp; Control</i> (H. K. Khalil) · I. Workshop on Applied Mathematics and Statistics · Izmir Mathematics Days V · 9th Workshop of the Women Mathematicians Association</span></div></div>
+      <div class="row"><span class="y">2022</span><div><span class="d" style="color:var(--text)">13th Asian Control Conference · Izmir Mathematics Days IV</span></div></div>
+      <div class="row"><span class="y">2021</span><div><span class="d" style="color:var(--text)">Turkish National Congress of Automatic Control (TOK)</span></div></div>
+    </div>
+    <p class="sub-h" data-i="sk_h"></p>
+    <div class="card"><div class="tags"><span class="tag">MATLAB</span><span class="tag">LaTeX</span><span class="tag" data-i="sk1"></span><span class="tag" data-i="sk2"></span><span class="tag" data-i="sk3"></span></div></div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2 data-i="contact_h"></h2>
+    <div class="card"><ul>
+      <li><span data-i="email"></span>: <a href="mailto:deryacokgur@iyte.edu.tr">deryacokgur@iyte.edu.tr</a></li>
+      <li><span data-i="aff_l"></span>: <span data-i="aff"></span></li>
+    </ul></div>
+  </section>
+</main>
+
+<footer>© 2026 Derya Özdemir</footer>
+
+<script>
+(function(){
+  var T={
+  en:{n_about:"About",n_res:"Research",n_teach:"Teaching",n_cv:"CV",n_contact:"Contact",
+    hero_sub:"Mathematician and Research Assistant at Izmir Institute of Technology, working on stability theory of nonlinear systems and mathematical control theory.",
+    btn_res:"View publications",btn_cv:"Download CV (PDF)",btn_mail:"Email me",
+    about_h:"About",about_p:"I am a Ph.D. candidate in Mathematics and a Research Assistant at Izmir Institute of Technology. My research focuses on Lyapunov-based stability analysis, in particular stability results with indefinite Lyapunov functions and derivatives for nonlinear and time-varying systems. Before my academic career I taught mathematics at high school and tutoring level in İzmir, and I have been a teaching assistant for calculus, numerical analysis and control theory courses since 2019.",
+    int_l:"Research interests:",int:"Lyapunov stability, input-to-state stability, nonlinear time-varying systems, cascade systems, mathematical control theory",
+    lang_l:"Languages:",lang_v:"Turkish (native), English (strong reading, writing and speaking)",
+    res_h:"Research & Publications",k_j:"Journal",k_c:"Conference",k_b:"Book",book_t:"Mathematics Textbook for Grade 9",
+    proj_h:"Research project",tub_t:"TÜBİTAK Research Project",tub_d:"Stability Analysis with Relaxed Conditions in Lyapunov Direct Method",
+    teach_h:"Teaching",teach_p:"Teaching assistant at Izmir Institute of Technology since 2019.",t_calc:"Calculus and foundations",t_adv:"Applied and advanced courses",
+    edu_h:"Education",y_phd:"2022 – present",phd:"Ph.D., Mathematics",msc:"M.Sc., Mathematics",thesis:"Thesis:",bsc:"B.Sc., Mathematics",
+    emp_h:"Employment",y_ra:"2019 – present",ra:"Research Assistant",mt:"Mathematics Teacher",
+    act_h:"Conferences & schools",sk_h:"Skills",sk1:"Academic research",sk2:"Teaching",sk3:"LaTeX typesetting & publishing",
+    contact_h:"Contact",email:"Email",aff_l:"Affiliation",aff:"Department of Mathematics, Izmir Institute of Technology, İzmir, Türkiye"},
+  tr:{n_about:"Hakkımda",n_res:"Araştırma",n_teach:"Dersler",n_cv:"Özgeçmiş",n_contact:"İletişim",
+    hero_sub:"İzmir Yüksek Teknoloji Enstitüsü'nde araştırma görevlisi; doğrusal olmayan sistemlerin kararlılık teorisi ve matematiksel kontrol teorisi üzerine çalışıyorum.",
+    btn_res:"Yayınlara bak",btn_cv:"CV indir (PDF)",btn_mail:"E-posta gönder",
+    about_h:"Hakkımda",about_p:"İzmir Yüksek Teknoloji Enstitüsü'nde Matematik doktora öğrencisi ve araştırma görevlisiyim. Çalışmalarım Lyapunov tabanlı kararlılık analizine, özellikle doğrusal olmayan ve zamana bağlı sistemler için belirsiz (indefinite) Lyapunov fonksiyonları ve türevleriyle kararlılık sonuçlarına odaklanıyor. Akademiye geçmeden önce İzmir'de lise ve dershanede matematik öğretmenliği yaptım; 2019'dan bu yana kalkülüs, sayısal analiz ve kontrol teorisi derslerinde asistanlık yapıyorum.",
+    int_l:"Araştırma alanları:",int:"Lyapunov kararlılığı, girdi-durum kararlılığı, doğrusal olmayan zamana bağlı sistemler, kaskad sistemler, matematiksel kontrol teorisi",
+    lang_l:"Diller:",lang_v:"Türkçe (ana dil), İngilizce (ileri düzey okuma, yazma ve konuşma)",
+    res_h:"Araştırma ve Yayınlar",k_j:"Dergi",k_c:"Konferans",k_b:"Kitap",book_t:"9. Sınıf Matematik Ders Kitabı",
+    proj_h:"Araştırma projesi",tub_t:"TÜBİTAK Araştırma Projesi",tub_d:"Lyapunov Direkt Yönteminde Gevşetilmiş Koşullarla Kararlılık Analizi",
+    teach_h:"Dersler",teach_p:"2019'dan bu yana İzmir Yüksek Teknoloji Enstitüsü'nde ders asistanı.",t_calc:"Kalkülüs ve temel dersler",t_adv:"Uygulamalı ve ileri dersler",
+    edu_h:"Eğitim",y_phd:"2022 – devam",phd:"Doktora, Matematik",msc:"Yüksek Lisans, Matematik",thesis:"Tez:",bsc:"Lisans, Matematik",
+    emp_h:"İş Deneyimi",y_ra:"2019 – devam",ra:"Araştırma Görevlisi",mt:"Matematik Öğretmeni",
+    act_h:"Konferanslar ve okullar",sk_h:"Beceriler",sk1:"Akademik araştırma",sk2:"Öğretim",sk3:"LaTeX dizgi ve yayın",
+    contact_h:"İletişim",email:"E-posta",aff_l:"Kurum",aff:"Matematik Bölümü, İzmir Yüksek Teknoloji Enstitüsü, İzmir"}};
+  var r=document.documentElement,lb=document.getElementById('lang'),tb=document.getElementById('theme'),cur="en";
+  function apply(l){cur=l;r.lang=l;
+    document.querySelectorAll('[data-i]').forEach(function(e){var v=T[l][e.getAttribute('data-i')];if(v!=null)e.textContent=v});
+    lb.textContent=l==="en"?"TR":"EN";
+    document.title=l==="en"?"Derya Özdemir — Mathematics":"Derya Özdemir — Matematik";}
+  var saved=null;try{saved=localStorage.getItem('lang')}catch(e){}
+  apply(saved==="tr"?"tr":"en");
+  lb.addEventListener('click',function(){var n=cur==="en"?"tr":"en";apply(n);try{localStorage.setItem('lang',n)}catch(e){}});
+  tb.addEventListener('click',function(){
+    var dark=r.getAttribute('data-theme')==='dark'||(!r.getAttribute('data-theme')&&matchMedia('(prefers-color-scheme:dark)').matches);
+    r.setAttribute('data-theme',dark?'light':'dark');});
+  var mb=document.getElementById('menu'),lk=document.getElementById('links');
+  mb.addEventListener('click',function(){var o=lk.classList.toggle('open');mb.setAttribute('aria-expanded',o)});
+  lk.addEventListener('click',function(e){if(e.target.tagName==='A'){lk.classList.remove('open');mb.setAttribute('aria-expanded','false')}});
+})();
+</script>
+</body>
+</html>
